@@ -40,12 +40,12 @@ header {
 header .logo {
     font-size: 24px;
     font-weight: 700;
-    margin-right: auto;
+    margin-left: auto;
     padding-left: 20px;
 }
 
 header nav {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 header nav ul {
@@ -75,7 +75,7 @@ header nav ul li a:hover {
 /* Sections */
 section {
     padding: 60px 20px;
-    text-align: right;
+    text-align: left;
 }
 
 section h2 {
@@ -110,6 +110,6 @@ footer p {
     margin: 0 auto;
 }
 
-.text-right {
-    text-align: right;
+.text-left {
+    text-align: left;
 }
