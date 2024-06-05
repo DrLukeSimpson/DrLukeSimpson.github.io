@@ -30,7 +30,7 @@ p {
 /* Header */
 header {
     background: #fff;
-    padding: 20px 0;
+    padding: 10px 0; /* Adjusted padding to move links higher */
     border-bottom: 1px solid #eee;
     display: flex;
     justify-content: flex-end;
@@ -62,7 +62,7 @@ header nav ul li {
 header nav ul li a {
     font-size: 14px;
     font-weight: 400;
-    padding: 10px;
+    padding: 5px; /* Adjusted padding to move links higher */
     display: block;
     color: #2C2D3F;
     text-transform: capitalize;
@@ -90,8 +90,8 @@ section p {
 
 /* Footer */
 footer {
-    background: #1A76D1;
-    color: #fff;
+    background: #fff; /* Changed background to white */
+    color: #2C2D3F; /* Adjusted text color for readability */
     text-align: center;
     padding: 20px 0;
     position: fixed;
